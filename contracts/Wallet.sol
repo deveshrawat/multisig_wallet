@@ -40,7 +40,7 @@ contract Wallet {
         external
         onlyApproved
     {
-        transfers[nextId] = Transfer(nextId, _recipient, _amount, 0, false);
+        transfers.push(Transfer(nextId, _recipient, _amount, 0, false));
         nextId++;
     }
 

@@ -1,0 +1,26 @@
+{
+  "name": "multisig_wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deveshrawat/multisig_wallet.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deveshrawat/multisig_wallet/issues"
+  },
+  "homepage": "https://github.com/deveshrawat/multisig_wallet#readme",
+  "dependencies": {
+    "@openzeppelin/test-helpers": "^0.5.15"
+  }
+}
